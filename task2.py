@@ -6,12 +6,11 @@ from typing import Callable, Generator
 
 def generator_numbers(context: str) -> Generator[float, None, None]:
     """
-    Analyzes text, finds all valid numbers (int and float),
+    Analyzes context, finds all valid numbers (int and float),
     and returns them as a generator.
 
     Args:
-        text (str): Input string to analyze.
-
+        context (str): Input string to analyze.
     Returns:
         Generator[float, None, None]: A generator yielding the found numbers as floats.
     """
