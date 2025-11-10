@@ -25,3 +25,4 @@ fib = caching_fibonacci()
 
 # Test the function
 print(f"fib(10) = {fib(10)}")
+print(f"fib(15) = {fib(15)}")
